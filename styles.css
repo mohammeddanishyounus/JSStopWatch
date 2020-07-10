@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+
+#body{
+    background-color: aqua;
+    font-family: fantasy;
+    margin: auto;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+#heading{
+    display: inline-block;
+    border: 2px groove;
+    width: 600px;
+    text-align: center;
+    background-color:whitesmoke;
+    padding: 20px;
+    font-size: 100px;
+    margin: 30px;
+    height: 160px;
+}
+
+#numbersBox {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+}
+
+#buttons button:hover{
+    color:rgb(95, 95, 90);
+    background-color: #ddd;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
+    border-color: #aaa;
+}
+
+#mintues, #seconds, #miliseconds {
+    display: inline-block;
+    border: 2px groove;
+    width: 150px;
+    text-align: center;
+    background-color:rgb(95, 95, 90);
+    padding: 20px;
+    font-size: 100px;
+    margin: 20px 20px 20px 20px;
+    height: 160px;
+}
+
+#btnStart, #btnPause, #btnReset {
+    border: 2px groove;
+    width: 80px;
+    height:50px;
+    margin: 20px 10px 40px 10px;
+    font-size: 20px;
+    
+}
